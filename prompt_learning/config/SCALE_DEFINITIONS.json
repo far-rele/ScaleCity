@@ -1,0 +1,11 @@
+{
+  "h3": {"type": "h3"},
+  "street_normal": {"type": "street_normal", "path": "data/task/population/{CITYNAME}/{CITYNAME}_streets_popu/{CITYNAME}_streets_popu.shp", "id_col": "street_id"},
+  "L1": {"type": "street_shp", "path": "data/task/population/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_popu.shp", "id_col": "index"},
+  "L2": {"type": "street_shp", "path": "data/task/population/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_popu.shp", "id_col": "index"},
+  "L3": {"type": "street_shp", "path": "data/task/population/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_popu.shp", "id_col": "index"},
+  "L11": {"type": "street_shp", "path": "data/task/population/{CITYNAME}/streets/L11/{CITYNAME}_L11_popu.shp", "id_col": "index"},
+  "1km": {"type": "grid_shp", "path": "data/task/population/{CITYNAME}/{CITYNAME}_grid_1km_popu/{CITYNAME}_grid_1km_popu.shp", "id_col": "grid_id"},
+  "3km": {"type": "grid_shp", "path": "data/task/population/{CITYNAME}/{CITYNAME}_grid_3km_popu/{CITYNAME}_grid_3km_popu.shp", "id_col": "grid_id"},
+  "5km": {"type": "grid_shp", "path": "data/task/population/{CITYNAME}/{CITYNAME}_grid_5km_popu/{CITYNAME}_grid_5km_popu.shp", "id_col": "grid_id"}
+}

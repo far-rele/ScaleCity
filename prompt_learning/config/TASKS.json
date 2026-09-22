@@ -1,0 +1,650 @@
+{
+    "population_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/population/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_popu.shp",
+        "id_col": "index",
+        "target_col": "population",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "population"
+    },
+    "population_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/population/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_popu.shp",
+        "id_col": "index",
+        "target_col": "population",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "population"
+    },
+    "population_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/population/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_popu.shp",
+        "id_col": "index",
+        "target_col": "population",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "population"
+    },
+    "population_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/population/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_popu.shp",
+        "id_col": "index",
+        "target_col": "population",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "population"
+    },
+    "population_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/population/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_popu.shp",
+        "id_col": "index",
+        "target_col": "population",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "population"
+    },
+    "population_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/population/{CITYNAME}/streets/L11/{CITYNAME}_L11_popu.shp",
+        "id_col": "index",
+        "target_col": "population",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "population"
+    },
+    "population_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/population/{CITYNAME}/{CITYNAME}_grid_1km_popu/{CITYNAME}_grid_1km_popu.shp",
+        "id_col": "grid_id",
+        "target_col": "population",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "population"
+    },
+    "population_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/population/{CITYNAME}/{CITYNAME}_grid_3km_popu/{CITYNAME}_grid_3km_popu.shp",
+        "id_col": "grid_id",
+        "target_col": "population",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "population"
+    },
+    "population_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/population/{CITYNAME}/{CITYNAME}_grid_5km_popu/{CITYNAME}_grid_5km_popu.shp",
+        "id_col": "grid_id",
+        "target_col": "population",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "population"
+    },
+    "PM25_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/PM25/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_PM2.5.shp",
+        "id_col": "index",
+        "target_col": "PM2.5",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "PM2.5"
+    },
+    "PM25_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/PM25/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_PM2.5.shp",
+        "id_col": "index",
+        "target_col": "PM2.5",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "PM2.5"
+    },
+    "PM25_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/PM25/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_PM2.5.shp",
+        "id_col": "index",
+        "target_col": "PM2.5",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "PM2.5"
+    },
+    "PM25_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/PM25/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_PM2.5.shp",
+        "id_col": "index",
+        "target_col": "PM2.5",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "PM2.5"
+    },
+    "PM25_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/PM25/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_PM2.5.shp",
+        "id_col": "index",
+        "target_col": "PM2.5",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "PM2.5"
+    },
+    "PM25_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/PM25/{CITYNAME}/streets/L11/{CITYNAME}_L11_PM2.5.shp",
+        "id_col": "index",
+        "target_col": "PM2.5",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "PM2.5"
+    },
+    "PM25_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/PM25/{CITYNAME}/{CITYNAME}_grid_1km_PM25/{CITYNAME}_grid_1km_PM25.shp",
+        "id_col": "grid_id",
+        "target_col": "PM25",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "PM2.5"
+    },
+    "PM25_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/PM25/{CITYNAME}/{CITYNAME}_grid_3km_PM25/{CITYNAME}_grid_3km_PM25.shp",
+        "id_col": "grid_id",
+        "target_col": "PM25",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "PM2.5"
+    },
+    "PM25_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/PM25/{CITYNAME}/{CITYNAME}_grid_5km_PM25/{CITYNAME}_grid_5km_PM25.shp",
+        "id_col": "grid_id",
+        "target_col": "PM25",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "PM2.5"
+    },
+    "CO_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/CO/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_CO.shp",
+        "id_col": "index",
+        "target_col": "CO",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "CO"
+    },
+    "CO_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/CO/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_CO.shp",
+        "id_col": "index",
+        "target_col": "CO",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "CO"
+    },
+    "CO_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/CO/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_CO.shp",
+        "id_col": "index",
+        "target_col": "CO",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "CO"
+    },
+    "CO_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/CO/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_CO.shp",
+        "id_col": "index",
+        "target_col": "CO",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "CO"
+    },
+    "CO_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/CO/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_CO.shp",
+        "id_col": "index",
+        "target_col": "CO",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "CO"
+    },
+    "CO_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/CO/{CITYNAME}/streets/L11/{CITYNAME}_L11_CO.shp",
+        "id_col": "index",
+        "target_col": "CO",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "CO"
+    },
+    "CO_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/CO/{CITYNAME}/{CITYNAME}_grid_1km_CO/{CITYNAME}_grid_1km_CO.shp",
+        "id_col": "grid_id",
+        "target_col": "CO",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "CO"
+    },
+    "CO_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/CO/{CITYNAME}/{CITYNAME}_grid_3km_CO/{CITYNAME}_grid_3km_CO.shp",
+        "id_col": "grid_id",
+        "target_col": "CO",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "CO"
+    },
+    "CO_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/CO/{CITYNAME}/{CITYNAME}_grid_5km_CO/{CITYNAME}_grid_5km_CO.shp",
+        "id_col": "grid_id",
+        "target_col": "CO",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "CO"
+    },
+    "CO2_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/CO2/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_CO2.shp",
+        "id_col": "index",
+        "target_col": "CO2",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "CO2"
+    },
+    "CO2_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/CO2/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_CO2.shp",
+        "id_col": "index",
+        "target_col": "CO2",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "CO2"
+    },
+    "CO2_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/CO2/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_CO2.shp",
+        "id_col": "index",
+        "target_col": "CO2",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "CO2"
+    },
+    "CO2_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/CO2/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_CO2.shp",
+        "id_col": "index",
+        "target_col": "CO2",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "CO2"
+    },
+    "CO2_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/CO2/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_CO2.shp",
+        "id_col": "index",
+        "target_col": "CO2",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "CO2"
+    },
+    "CO2_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/CO2/{CITYNAME}/streets/L11/{CITYNAME}_L11_CO2.shp",
+        "id_col": "index",
+        "target_col": "CO2",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "CO2"
+    },
+    "CO2_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/CO2/{CITYNAME}/{CITYNAME}_grid_1km_CO2/{CITYNAME}_grid_1km_CO2.shp",
+        "id_col": "grid_id",
+        "target_col": "CO2",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "CO2"
+    },
+    "CO2_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/CO2/{CITYNAME}/{CITYNAME}_grid_3km_CO2/{CITYNAME}_grid_3km_CO2.shp",
+        "id_col": "grid_id",
+        "target_col": "CO2",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "CO2"
+    },
+    "CO2_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/CO2/{CITYNAME}/{CITYNAME}_grid_5km_CO2/{CITYNAME}_grid_5km_CO2.shp",
+        "id_col": "grid_id",
+        "target_col": "CO2",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "CO2"
+    },
+    "GDP_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/GDP/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_GDP.shp",
+        "id_col": "index",
+        "target_col": "GDP",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "GDP"
+    },
+    "GDP_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/GDP/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_GDP.shp",
+        "id_col": "index",
+        "target_col": "GDP",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "GDP"
+    },
+    "GDP_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/GDP/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_GDP.shp",
+        "id_col": "index",
+        "target_col": "GDP",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "GDP"
+    },
+    "GDP_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/GDP/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_GDP.shp",
+        "id_col": "index",
+        "target_col": "GDP",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "GDP"
+    },
+    "GDP_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/GDP/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_GDP.shp",
+        "id_col": "index",
+        "target_col": "GDP",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "GDP"
+    },
+    "GDP_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/GDP/{CITYNAME}/streets/L11/{CITYNAME}_L11_GDP.shp",
+        "id_col": "index",
+        "target_col": "GDP",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "GDP"
+    },
+    "GDP_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/GDP/{CITYNAME}/{CITYNAME}_grid_1km_GDP/{CITYNAME}_grid_1km_GDP.shp",
+        "id_col": "grid_id",
+        "target_col": "GDP",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "GDP"
+    },
+    "GDP_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/GDP/{CITYNAME}/{CITYNAME}_grid_3km_GDP/{CITYNAME}_grid_3km_GDP.shp",
+        "id_col": "grid_id",
+        "target_col": "GDP",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "GDP"
+    },
+    "GDP_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/GDP/{CITYNAME}/{CITYNAME}_grid_5km_GDP/{CITYNAME}_grid_5km_GDP.shp",
+        "id_col": "grid_id",
+        "target_col": "GDP",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "GDP"
+    },
+    "HFP_tx_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_HFP_tx.shp",
+        "id_col": "index",
+        "target_col": "HFP_tx",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_HFP_tx.shp",
+        "id_col": "index",
+        "target_col": "HFP_tx",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_HFP_tx.shp",
+        "id_col": "index",
+        "target_col": "HFP_tx",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_HFP_tx.shp",
+        "id_col": "index",
+        "target_col": "HFP_tx",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_HFP_tx.shp",
+        "id_col": "index",
+        "target_col": "HFP_tx",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/streets/L11/{CITYNAME}_L11_HFP_tx.shp",
+        "id_col": "index",
+        "target_col": "HFP_tx",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/{CITYNAME}_grid_1km_HFP_tx/{CITYNAME}_grid_1km_HFP_tx.shp",
+        "id_col": "grid_id",
+        "target_col": "HFP_tx",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/{CITYNAME}_grid_3km_HFP_tx/{CITYNAME}_grid_3km_HFP_tx.shp",
+        "id_col": "grid_id",
+        "target_col": "HFP_tx",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "HFP_tx"
+    },
+    "HFP_tx_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/HFP_tx/{CITYNAME}/{CITYNAME}_grid_5km_HFP_tx/{CITYNAME}_grid_5km_HFP_tx.shp",
+        "id_col": "grid_id",
+        "target_col": "HFP_tx",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "HFP_tx"
+    },
+    "HP_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/HP/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_HP.shp",
+        "id_col": "index",
+        "target_col": "HP",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "HP"
+    },
+    "HP_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/HP/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_HP.shp",
+        "id_col": "index",
+        "target_col": "HP",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "HP"
+    },
+    "HP_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/HP/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_HP.shp",
+        "id_col": "index",
+        "target_col": "HP",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "HP"
+    },
+    "HP_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/HP/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_HP.shp",
+        "id_col": "index",
+        "target_col": "HP",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "HP"
+    },
+    "HP_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/HP/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_HP.shp",
+        "id_col": "index",
+        "target_col": "HP",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "HP"
+    },
+    "HP_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/HP/{CITYNAME}/streets/L11/{CITYNAME}_L11_HP.shp",
+        "id_col": "index",
+        "target_col": "HP",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "HP"
+    },
+    "HP_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/HP/{CITYNAME}/{CITYNAME}_grid_1km_HP/{CITYNAME}_grid_1km_HP.shp",
+        "id_col": "grid_id",
+        "target_col": "HP",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "HP"
+    },
+    "HP_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/HP/{CITYNAME}/{CITYNAME}_grid_3km_HP/{CITYNAME}_grid_3km_HP.shp",
+        "id_col": "grid_id",
+        "target_col": "HP",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "HP"
+    },
+    "HP_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/HP/{CITYNAME}/{CITYNAME}_grid_5km_HP/{CITYNAME}_grid_5km_HP.shp",
+        "id_col": "grid_id",
+        "target_col": "HP",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "HP"
+    },
+    "bike_street_L1": {
+        "type": "street_shp",
+        "path": "data/task/bike/{CITYNAME}/MSDCW/L1/{CITYNAME}_L1_bike.shp",
+        "id_col": "index",
+        "target_col": "bike",
+        "scale_key": "L1",
+        "scale_tag": "L1",
+        "task_tag": "bike"
+    },
+    "bike_street_L2": {
+        "type": "street_shp",
+        "path": "data/task/bike/{CITYNAME}/MSDCW/L2/{CITYNAME}_L2_bike.shp",
+        "id_col": "index",
+        "target_col": "bike",
+        "scale_key": "L2",
+        "scale_tag": "L2",
+        "task_tag": "bike"
+    },
+    "bike_street_L3": {
+        "type": "street_shp",
+        "path": "data/task/bike/{CITYNAME}/MSDCW/L3/{CITYNAME}_L3_bike.shp",
+        "id_col": "index",
+        "target_col": "bike",
+        "scale_key": "L3",
+        "scale_tag": "L3",
+        "task_tag": "bike"
+    },
+    "bike_street_L4": {
+        "type": "street_shp",
+        "path": "data/task/bike/{CITYNAME}/MSDCW/L4/{CITYNAME}_L4_bike.shp",
+        "id_col": "index",
+        "target_col": "bike",
+        "scale_key": "L4",
+        "scale_tag": "L4",
+        "task_tag": "bike"
+    },
+    "bike_street_L5": {
+        "type": "street_shp",
+        "path": "data/task/bike/{CITYNAME}/MSDCW/L5/{CITYNAME}_L5_bike.shp",
+        "id_col": "index",
+        "target_col": "bike",
+        "scale_key": "L5",
+        "scale_tag": "L5",
+        "task_tag": "bike"
+    },
+    "bike_street_L11": {
+        "type": "street_shp",
+        "path": "data/task/bike/{CITYNAME}/streets/L11/{CITYNAME}_L11_bike.shp",
+        "id_col": "index",
+        "target_col": "bike",
+        "scale_key": "L11",
+        "scale_tag": "L11",
+        "task_tag": "bike"
+    },
+    "bike_grid_1km": {
+        "type": "grid_shp",
+        "path": "data/task/bike/{CITYNAME}/{CITYNAME}_grid_1km_bike/{CITYNAME}_grid_1km_bike.shp",
+        "id_col": "grid_id",
+        "target_col": "bike",
+        "scale_key": "1km",
+        "scale_tag": "1km",
+        "task_tag": "bike"
+    },
+    "bike_grid_3km": {
+        "type": "grid_shp",
+        "path": "data/task/bike/{CITYNAME}/{CITYNAME}_grid_3km_bike/{CITYNAME}_grid_3km_bike.shp",
+        "id_col": "grid_id",
+        "target_col": "bike",
+        "scale_key": "3km",
+        "scale_tag": "3km",
+        "task_tag": "bike"
+    },
+    "bike_grid_5km": {
+        "type": "grid_shp",
+        "path": "data/task/bike/{CITYNAME}/{CITYNAME}_grid_5km_bike/{CITYNAME}_grid_5km_bike.shp",
+        "id_col": "grid_id",
+        "target_col": "bike",
+        "scale_key": "5km",
+        "scale_tag": "5km",
+        "task_tag": "bike"
+    }
+}

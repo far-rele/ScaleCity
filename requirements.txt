@@ -1,0 +1,21 @@
+# Core deep learning
+torch>=2.0.0
+transformers>=4.30.0
+peft>=0.5.0
+
+# Geospatial
+geopandas>=0.13.0
+shapely>=2.0.0
+h3==3.7.6
+
+# Data / ML
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+
+# Image and plotting
+Pillow>=9.0.0
+matplotlib>=3.6.0
+
+# Utilities
+tqdm>=4.64.0
